@@ -1,18 +1,24 @@
- doe: "a deer, a female deer"
- ray: "a drop of golden sun"
- pi: 3.14159
- xmas: true
- french-hens: 3
- calling-birds: 
-   - huey
-   - dewey
-   - louie
-   - fred
- xmas-fifth-day: 
-   calling-birds: four
-   french-hens: 3
-   golden-rings: 5
-   partridges: 
-     count: 1
-     location: "a pear tree"
-   turtle-doves: two
+---
+-
+Department:R&D
+Product:AuditLogAPI
+NameofMetric:AuditLog_Availibility
+ExplanationSLI:Proportion of successful (2XX, 3XX or 4XX) HTTP GET requests for audit logs API audit/v1/logs, measured at audit logs API service level
+ExplanationSLO:99.90 % success
+LowerBoundThreshold:0,999
+HigherBoundThreshold:
+StartDate:
+ExpiryDate:
+LinktoGrafana:https://linktogosomewhere.com
+-
+Department:R&D
+Product:AuditLogAPI
+NameofMetric:AuditLog_Availibility
+ExplanationSLI:Proportion of successful (2XX, 3XX or 4XX) HTTP GET requests for audit logs API audit/v1/logs, measured at audit logs API service level
+ExplanationSLO:99.90 % success
+LowerBoundThreshold:0,999
+HigherBoundThreshold:
+StartDate:
+ExpiryDate:
+LinktoGrafana:https://linktogosomewhere.com
+-
