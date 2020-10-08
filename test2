@@ -1,0 +1,13 @@
+[{
+"Department":"R&D",
+"Product":"AuditLogAPI",
+"NameofMetric":"AuditLog_Availibility",
+"ExplanationSLI":"Proportion of successful (2XX, 3XX or 4XX) HTTP GET requests for audit logs API audit/v1/logs, measured at audit logs API service level",
+"ExplanationSLO":"99.90 % success",
+"LowerThreshold":"0,999",
+"HigherThreshold":"",
+"StartDate":"",
+"ExpiryDate":"",
+"LinktoGrafana":"https://linktogosomewhere.com",
+"PromQuery":"sum(increase(traefik_backend_requests_total{code!~"5.*"}[5m])) / sum(increase(traefik_backend_requests_total[5m]))"
+}]
