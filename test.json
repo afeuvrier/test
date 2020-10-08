@@ -1,11 +1,11 @@
 [{
 "Department":"R&D",
 "Product":"AuditLogAPI",
-"NameofMetric":"AuditLog_Availibility",
+"NameofMetric":"AuditLog",
 "ExplanationSLI":"Proportion of successful (2XX, 3XX or 4XX) HTTP GET requests for audit logs API audit/v1/logs, measured at audit logs API service level",
 "ExplanationSLO":"99.90 % success",
 "LowerThreshold":"0,999",
-"HigherThreshold":"",
+"HigherThreshold":"1",
 "StartDate":"",
 "ExpiryDate":"",
 "LinktoGrafana":"https://linktogosomewhere.com"
@@ -13,11 +13,11 @@
 {
 "Department":"R&D",
 "Product":"AuditLogAPI",
-"NameofMetric":"AuditLog_Availibility",
+"NameofMetric":"AuditLog_Test",
 "ExplanationSLI":"Proportion of successful (2XX, 3XX or 4XX) HTTP GET requests for audit logs API audit/v1/logs, measured at audit logs API service level",
 "ExplanationSLO":"99.90 % success",
 "LowerThreshold":"0,999",
-"HigherThreshold":"",
+"HigherThreshold":"1",
 "StartDate":"",
 "ExpiryDate":"",
 "LinktoGrafana":"https://linktogosomewhere.com"
