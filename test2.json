@@ -9,5 +9,5 @@
 "StartDate":"",
 "ExpiryDate":"",
 "LinktoGrafana":"https://linktogosomewhere.com",
-"PromQuery":sum(increase(traefik_backend_requests_total{code!~"5.*"}[5m])) / sum(increase(traefik_backend_requests_total[5m]))
+"PromQuery":"""sum(increase(traefik_backend_requests_total{code!~"5.*"}[5m])) / sum(increase(traefik_backend_requests_total[5m]))"""
 }]
